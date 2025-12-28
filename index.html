@@ -1,13 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FR</title>
+
+  <!-- Redirection immédiate -->
   <meta http-equiv="refresh" content="0; url=Accueil/accueil.html" />
-  <title>France Railways</title>
+
+  <!-- Fallback JS -->
+  <script>
+    window.location.replace("Accueil/accueil.html");
+  </script>
 </head>
+
 <body>
-  <p>Redirection… <a href="Accueil/accueil.html">Clique ici</a>.</p>
-  <script>location.replace("Accueil/accueil.html");</script>
+  <noscript>
+    <p>
+      <a href="Accueil/accueil.html">
+        Accéder au site FR
+      </a>
+    </p>
+  </noscript>
 </body>
 </html>
