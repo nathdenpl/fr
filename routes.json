@@ -1,0 +1,748 @@
+{
+  "routes": [
+    {
+      "id": "145",
+      "line": "IC 9",
+      "schedule": [
+        { "station": "Sion", "arr": null, "dep": "7:39" },
+        { "station": "Sierre", "arr": "7:52", "dep": "7:54" },
+        { "station": "Viège", "arr": "8:12", "dep": "8:15" },
+        { "station": "Brigue", "arr": "8:46", "dep": null }
+      ]
+    },
+    {
+      "id": "146",
+      "line": "IC 9",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "18:29" },
+        { "station": "Viège", "arr": "19:00", "dep": "19:03" },
+        { "station": "Sierre", "arr": "19:21", "dep": "19:23" },
+        { "station": "Sion", "arr": "19:37", "dep": null }
+      ]
+    },
+    {
+      "id": "701",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "5:45" },
+        { "station": "Martigny", "arr": "5:54", "dep": "5:55" },
+        { "station": "Sion", "arr": "6:09", "dep": "6:10" },
+        { "station": "Sierre", "arr": "6:24", "dep": "6:25" },
+        { "station": "Loèche-les-Bains", "arr": "6:33", "dep": "6:34" },
+        { "station": "Viège", "arr": "6:45", "dep": "6:47" },
+        { "station": "Brigue", "arr": "7:18", "dep": null }
+      ]
+    },
+    {
+      "id": "702",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "5:00" },
+        { "station": "Viège", "arr": "5:31", "dep": "5:34" },
+        { "station": "Loèche-les-Bains", "arr": "5:45", "dep": "5:46" },
+        { "station": "Sierre", "arr": "5:54", "dep": "5:55" },
+        { "station": "Sion", "arr": "6:08", "dep": "6:10" },
+        { "station": "Martigny", "arr": "6:24", "dep": "6:25" },
+        { "station": "Saint-Maurice", "arr": "6:34", "dep": null }
+      ]
+    },
+    {
+      "id": "703",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "6:41" },
+        { "station": "Martigny", "arr": "6:50", "dep": "6:51" },
+        { "station": "Sion", "arr": "7:05", "dep": "7:06" },
+        { "station": "Sierre", "arr": "7:20", "dep": "7:21" },
+        { "station": "Loèche-les-Bains", "arr": "7:29", "dep": "7:30" },
+        { "station": "Viège", "arr": "7:41", "dep": "7:43" },
+        { "station": "Brigue", "arr": "8:14", "dep": null }
+      ]
+    },
+    {
+      "id": "704",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "6:15" },
+        { "station": "Viège", "arr": "6:46", "dep": "6:49" },
+        { "station": "Loèche-les-Bains", "arr": "7:00", "dep": "7:01" },
+        { "station": "Sierre", "arr": "7:09", "dep": "7:10" },
+        { "station": "Sion", "arr": "7:24", "dep": "7:25" },
+        { "station": "Martigny", "arr": "7:39", "dep": "7:40" },
+        { "station": "Saint-Maurice", "arr": "7:49", "dep": null }
+      ]
+    },
+    {
+      "id": "705",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "7:51" },
+        { "station": "Martigny", "arr": "8:00", "dep": "8:01" },
+        { "station": "Sion", "arr": "8:15", "dep": "8:16" },
+        { "station": "Sierre", "arr": "8:30", "dep": "8:31" },
+        { "station": "Loèche-les-Bains", "arr": "8:39", "dep": "8:40" },
+        { "station": "Viège", "arr": "8:51", "dep": "8:54" },
+        { "station": "Brigue", "arr": "9:25", "dep": null }
+      ]
+    },
+    {
+      "id": "706",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "7:25" },
+        { "station": "Viège", "arr": "7:56", "dep": "7:59" },
+        { "station": "Loèche-les-Bains", "arr": "8:10", "dep": "8:11" },
+        { "station": "Sierre", "arr": "8:19", "dep": "8:20" },
+        { "station": "Sion", "arr": "8:34", "dep": "8:35" },
+        { "station": "Martigny", "arr": "8:49", "dep": "8:50" },
+        { "station": "Saint-Maurice", "arr": "8:59", "dep": null }
+      ]
+    },
+    {
+      "id": "707",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "9:01" },
+        { "station": "Martigny", "arr": "9:10", "dep": "9:11" },
+        { "station": "Sion", "arr": "9:25", "dep": "9:26" },
+        { "station": "Sierre", "arr": "9:40", "dep": "9:41" },
+        { "station": "Loèche-les-Bains", "arr": "9:49", "dep": "9:50" },
+        { "station": "Viège", "arr": "10:01", "dep": "10:04" },
+        { "station": "Brigue", "arr": "10:35", "dep": null }
+      ]
+    },
+    {
+      "id": "708",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "8:32" },
+        { "station": "Viège", "arr": "9:03", "dep": "9:06" },
+        { "station": "Loèche-les-Bains", "arr": "9:17", "dep": "9:18" },
+        { "station": "Sierre", "arr": "9:26", "dep": "9:27" },
+        { "station": "Sion", "arr": "9:40", "dep": "9:42" },
+        { "station": "Martigny", "arr": "9:56", "dep": "9:57" },
+        { "station": "Saint-Maurice", "arr": "10:06", "dep": null }
+      ]
+    },
+    {
+      "id": "709",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "10:10" },
+        { "station": "Martigny", "arr": "10:19", "dep": "10:20" },
+        { "station": "Sion", "arr": "10:34", "dep": "10:35" },
+        { "station": "Sierre", "arr": "10:49", "dep": "10:50" },
+        { "station": "Loèche-les-Bains", "arr": "10:58", "dep": "10:59" },
+        { "station": "Viège", "arr": "11:10", "dep": "11:13" },
+        { "station": "Brigue", "arr": "11:44", "dep": null }
+      ]
+    },
+    {
+      "id": "710",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "9:39" },
+        { "station": "Viège", "arr": "10:10", "dep": "10:13" },
+        { "station": "Loèche-les-Bains", "arr": "10:24", "dep": "10:25" },
+        { "station": "Sierre", "arr": "10:33", "dep": "10:34" },
+        { "station": "Sion", "arr": "10:48", "dep": "10:49" },
+        { "station": "Martigny", "arr": "11:03", "dep": "11:04" },
+        { "station": "Saint-Maurice", "arr": "11:13", "dep": null }
+      ]
+    },
+    {
+      "id": "711",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "11:27" },
+        { "station": "Martigny", "arr": "11:36", "dep": "11:37" },
+        { "station": "Sion", "arr": "11:51", "dep": "11:52" },
+        { "station": "Sierre", "arr": "12:06", "dep": "12:07" },
+        { "station": "Loèche-les-Bains", "arr": "12:15", "dep": "12:16" },
+        { "station": "Viège", "arr": "12:27", "dep": "12:30" },
+        { "station": "Brigue", "arr": "13:01", "dep": null }
+      ]
+    },
+    {
+      "id": "712",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "10:44" },
+        { "station": "Viège", "arr": "11:15", "dep": "11:18" },
+        { "station": "Loèche-les-Bains", "arr": "11:29", "dep": "11:30" },
+        { "station": "Sierre", "arr": "11:38", "dep": "11:39" },
+        { "station": "Sion", "arr": "11:53", "dep": "11:54" },
+        { "station": "Martigny", "arr": "12:08", "dep": "12:09" },
+        { "station": "Saint-Maurice", "arr": "12:18", "dep": null }
+      ]
+    },
+    {
+      "id": "713",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "12:32" },
+        { "station": "Martigny", "arr": "12:41", "dep": "12:42" },
+        { "station": "Sion", "arr": "12:56", "dep": "12:57" },
+        { "station": "Sierre", "arr": "13:11", "dep": "13:12" },
+        { "station": "Loèche-les-Bains", "arr": "13:20", "dep": "13:21" },
+        { "station": "Viège", "arr": "13:32", "dep": "13:35" },
+        { "station": "Brigue", "arr": "14:06", "dep": null }
+      ]
+    },
+    {
+      "id": "714",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "11:57" },
+        { "station": "Viège", "arr": "12:28", "dep": "12:30" },
+        { "station": "Loèche-les-Bains", "arr": "12:41", "dep": "12:42" },
+        { "station": "Sierre", "arr": "12:50", "dep": "12:51" },
+        { "station": "Sion", "arr": "13:05", "dep": "13:06" },
+        { "station": "Martigny", "arr": "13:20", "dep": "13:21" },
+        { "station": "Saint-Maurice", "arr": "13:30", "dep": null }
+      ]
+    },
+    {
+      "id": "715",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "13:42" },
+        { "station": "Martigny", "arr": "13:51", "dep": "13:52" },
+        { "station": "Sion", "arr": "14:06", "dep": "14:07" },
+        { "station": "Sierre", "arr": "14:21", "dep": "14:22" },
+        { "station": "Loèche-les-Bains", "arr": "14:30", "dep": "14:31" },
+        { "station": "Viège", "arr": "14:42", "dep": "14:45" },
+        { "station": "Brigue", "arr": "15:16", "dep": null }
+      ]
+    },
+    {
+      "id": "716",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "13:07" },
+        { "station": "Viège", "arr": "13:38", "dep": "13:41" },
+        { "station": "Loèche-les-Bains", "arr": "13:52", "dep": "13:53" },
+        { "station": "Sierre", "arr": "14:01", "dep": "14:02" },
+        { "station": "Sion", "arr": "14:16", "dep": "14:17" },
+        { "station": "Martigny", "arr": "14:31", "dep": "14:32" },
+        { "station": "Saint-Maurice", "arr": "14:41", "dep": null }
+      ]
+    },
+    {
+      "id": "717",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "14:54" },
+        { "station": "Martigny", "arr": "15:03", "dep": "15:04" },
+        { "station": "Sion", "arr": "15:18", "dep": "15:19" },
+        { "station": "Sierre", "arr": "15:33", "dep": "15:34" },
+        { "station": "Loèche-les-Bains", "arr": "15:42", "dep": "15:43" },
+        { "station": "Viège", "arr": "15:54", "dep": "15:56" },
+        { "station": "Brigue", "arr": "16:27", "dep": null }
+      ]
+    },
+    {
+      "id": "718",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "14:16" },
+        { "station": "Viège", "arr": "14:47", "dep": "14:49" },
+        { "station": "Loèche-les-Bains", "arr": "15:00", "dep": "15:01" },
+        { "station": "Sierre", "arr": "15:09", "dep": "15:10" },
+        { "station": "Sion", "arr": "15:24", "dep": "15:25" },
+        { "station": "Martigny", "arr": "15:39", "dep": "15:40" },
+        { "station": "Saint-Maurice", "arr": "15:49", "dep": null }
+      ]
+    },
+    {
+      "id": "719",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "16:00" },
+        { "station": "Martigny", "arr": "16:09", "dep": "16:10" },
+        { "station": "Sion", "arr": "16:24", "dep": "16:25" },
+        { "station": "Sierre", "arr": "16:39", "dep": "16:40" },
+        { "station": "Loèche-les-Bains", "arr": "16:48", "dep": "16:49" },
+        { "station": "Viège", "arr": "17:00", "dep": "17:02" },
+        { "station": "Brigue", "arr": "17:33", "dep": null }
+      ]
+    },
+    {
+      "id": "720",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "15:27" },
+        { "station": "Viège", "arr": "15:58", "dep": "16:03" },
+        { "station": "Loèche-les-Bains", "arr": "16:14", "dep": "16:15" },
+        { "station": "Sierre", "arr": "16:23", "dep": "16:24" },
+        { "station": "Sion", "arr": "16:37", "dep": "16:39" },
+        { "station": "Martigny", "arr": "16:53", "dep": "16:54" },
+        { "station": "Saint-Maurice", "arr": "17:03", "dep": null }
+      ]
+    },
+    {
+      "id": "721",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "17:10" },
+        { "station": "Martigny", "arr": "17:19", "dep": "17:20" },
+        { "station": "Sion", "arr": "17:34", "dep": "17:35" },
+        { "station": "Sierre", "arr": "17:49", "dep": "17:50" },
+        { "station": "Loèche-les-Bains", "arr": "17:58", "dep": "17:59" },
+        { "station": "Viège", "arr": "18:10", "dep": "18:12" },
+        { "station": "Brigue", "arr": "18:43", "dep": null }
+      ]
+    },
+    {
+      "id": "722",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "16:33" },
+        { "station": "Viège", "arr": "17:04", "dep": "17:07" },
+        { "station": "Loèche-les-Bains", "arr": "17:18", "dep": "17:19" },
+        { "station": "Sierre", "arr": "17:27", "dep": "17:28" },
+        { "station": "Sion", "arr": "17:42", "dep": "17:43" },
+        { "station": "Martigny", "arr": "17:57", "dep": "17:58" },
+        { "station": "Saint-Maurice", "arr": "18:07", "dep": null }
+      ]
+    },
+    {
+      "id": "723",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "18:18" },
+        { "station": "Martigny", "arr": "18:27", "dep": "18:28" },
+        { "station": "Sion", "arr": "18:42", "dep": "18:43" },
+        { "station": "Sierre", "arr": "18:57", "dep": "18:58" },
+        { "station": "Loèche-les-Bains", "arr": "19:06", "dep": "19:07" },
+        { "station": "Viège", "arr": "19:18", "dep": "19:21" },
+        { "station": "Brigue", "arr": "19:52", "dep": null }
+      ]
+    },
+    {
+      "id": "724",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "17:50" },
+        { "station": "Viège", "arr": "18:21", "dep": "18:23" },
+        { "station": "Loèche-les-Bains", "arr": "18:34", "dep": "18:35" },
+        { "station": "Sierre", "arr": "18:43", "dep": "18:44" },
+        { "station": "Sion", "arr": "18:57", "dep": "18:59" },
+        { "station": "Martigny", "arr": "19:13", "dep": "19:16" },
+        { "station": "Saint-Maurice", "arr": "19:25", "dep": null }
+      ]
+    },
+    {
+      "id": "725",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "19:17" },
+        { "station": "Martigny", "arr": "19:26", "dep": "19:30" },
+        { "station": "Sion", "arr": "19:44", "dep": "19:45" },
+        { "station": "Sierre", "arr": "19:59", "dep": "20:00" },
+        { "station": "Loèche-les-Bains", "arr": "20:08", "dep": "20:09" },
+        { "station": "Viège", "arr": "20:20", "dep": "20:23" },
+        { "station": "Brigue", "arr": "20:54", "dep": null }
+      ]
+    },
+    {
+      "id": "726",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "18:59" },
+        { "station": "Viège", "arr": "19:30", "dep": "19:33" },
+        { "station": "Loèche-les-Bains", "arr": "19:44", "dep": "19:45" },
+        { "station": "Sierre", "arr": "19:53", "dep": "19:54" },
+        { "station": "Sion", "arr": "20:07", "dep": "20:09" },
+        { "station": "Martigny", "arr": "20:23", "dep": "20:24" },
+        { "station": "Saint-Maurice", "arr": "20:33", "dep": null }
+      ]
+    },
+    {
+      "id": "727",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "20:40" },
+        { "station": "Martigny", "arr": "20:49", "dep": "20:50" },
+        { "station": "Sion", "arr": "21:04", "dep": "21:05" },
+        { "station": "Sierre", "arr": "21:19", "dep": "21:20" },
+        { "station": "Loèche-les-Bains", "arr": "21:28", "dep": "21:29" },
+        { "station": "Viège", "arr": "21:40", "dep": "21:42" },
+        { "station": "Brigue", "arr": "22:13", "dep": null }
+      ]
+    },
+    {
+      "id": "728",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "20:01" },
+        { "station": "Viège", "arr": "20:32", "dep": "20:34" },
+        { "station": "Loèche-les-Bains", "arr": "20:45", "dep": "20:46" },
+        { "station": "Sierre", "arr": "20:54", "dep": "20:55" },
+        { "station": "Sion", "arr": "21:09", "dep": "21:10" },
+        { "station": "Martigny", "arr": "21:24", "dep": "21:25" },
+        { "station": "Saint-Maurice", "arr": "21:34", "dep": null }
+      ]
+    },
+    {
+      "id": "729",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Saint-Maurice", "arr": null, "dep": "22:10" },
+        { "station": "Martigny", "arr": "22:19", "dep": "22:20" },
+        { "station": "Sion", "arr": "22:34", "dep": "22:35" },
+        { "station": "Sierre", "arr": "22:49", "dep": "22:50" },
+        { "station": "Loèche-les-Bains", "arr": "22:58", "dep": "22:59" },
+        { "station": "Viège", "arr": "23:10", "dep": "23:12" },
+        { "station": "Brigue", "arr": "23:43", "dep": null }
+      ]
+    },
+    {
+      "id": "730",
+      "line": "IR90",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "21:10" },
+        { "station": "Viège", "arr": "21:41", "dep": "21:43" },
+        { "station": "Loèche-les-Bains", "arr": "21:54", "dep": "21:55" },
+        { "station": "Sierre", "arr": "22:03", "dep": "22:04" },
+        { "station": "Sion", "arr": "22:18", "dep": "22:20" },
+        { "station": "Martigny", "arr": "22:34", "dep": "22:35" },
+        { "station": "Saint-Maurice", "arr": "22:44", "dep": null }
+      ]
+    },
+    {
+      "id": "801",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "5:05" },
+        { "station": "Sion", "arr": "5:19", "dep": "5:20" },
+        { "station": "Sierre", "arr": "5:34", "dep": "5:35" },
+        { "station": "Viège", "arr": "5:53", "dep": "5:55" },
+        { "station": "Brigue", "arr": "6:26", "dep": null }
+      ]
+    },
+    {
+      "id": "802",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Sion", "arr": null, "dep": "4:40" },
+        { "station": "Martigny", "arr": "4:54", "dep": null }
+      ]
+    },
+    {
+      "id": "803",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "6:20" },
+        { "station": "Sion", "arr": "6:34", "dep": "6:35" },
+        { "station": "Sierre", "arr": "6:49", "dep": "6:50" },
+        { "station": "Viège", "arr": "7:08", "dep": "7:11" },
+        { "station": "Brigue", "arr": "7:42", "dep": null }
+      ]
+    },
+    {
+      "id": "804",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Sion", "arr": null, "dep": "5:55" },
+        { "station": "Martigny", "arr": "6:09", "dep": null }
+      ]
+    },
+    {
+      "id": "805",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "7:16" },
+        { "station": "Sion", "arr": "7:30", "dep": null }
+      ]
+    },
+    {
+      "id": "806",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "5:40" },
+        { "station": "Viège", "arr": "6:11", "dep": "6:13" },
+        { "station": "Sierre", "arr": "6:31", "dep": "6:31" },
+        { "station": "Sion", "arr": "6:45", "dep": "6:46" },
+        { "station": "Martigny", "arr": "7:01", "dep": null }
+      ]
+    },
+    {
+      "id": "807",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "8:36" },
+        { "station": "Sion", "arr": "8:50", "dep": "8:51" },
+        { "station": "Sierre", "arr": "9:05", "dep": "9:06" },
+        { "station": "Viège", "arr": "9:24", "dep": "9:26" },
+        { "station": "Brigue", "arr": "9:57", "dep": null }
+      ]
+    },
+    {
+      "id": "808",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "6:58" },
+        { "station": "Viège", "arr": "7:29", "dep": "7:32" },
+        { "station": "Sierre", "arr": "7:50", "dep": "7:50" },
+        { "station": "Sion", "arr": "8:04", "dep": "8:05" },
+        { "station": "Martigny", "arr": "8:19", "dep": null }
+      ]
+    },
+    {
+      "id": "809",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "9:42" },
+        { "station": "Sion", "arr": "9:56", "dep": "9:57" },
+        { "station": "Sierre", "arr": "10:11", "dep": "10:12" },
+        { "station": "Viège", "arr": "10:30", "dep": "10:32" },
+        { "station": "Brigue", "arr": "11:03", "dep": null }
+      ]
+    },
+    {
+      "id": "810",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "8:05" },
+        { "station": "Viège", "arr": "8:36", "dep": "8:39" },
+        { "station": "Sierre", "arr": "8:57", "dep": "8:57" },
+        { "station": "Sion", "arr": "9:11", "dep": "9:12" },
+        { "station": "Martigny", "arr": "9:26", "dep": null }
+      ]
+    },
+    {
+      "id": "811",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "10:49" },
+        { "station": "Sion", "arr": "11:03", "dep": "11:04" },
+        { "station": "Sierre", "arr": "11:18", "dep": "11:19" },
+        { "station": "Viège", "arr": "11:37", "dep": "11:39" },
+        { "station": "Brigue", "arr": "12:10", "dep": null }
+      ]
+    },
+    {
+      "id": "812",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "9:06" },
+        { "station": "Viège", "arr": "9:37", "dep": "9:39" },
+        { "station": "Sierre", "arr": "9:57", "dep": "9:57" },
+        { "station": "Sion", "arr": "10:11", "dep": "10:12" },
+        { "station": "Martigny", "arr": "10:26", "dep": null }
+      ]
+    },
+    {
+      "id": "813",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "12:02" },
+        { "station": "Sion", "arr": "12:16", "dep": "12:17" },
+        { "station": "Sierre", "arr": "12:31", "dep": "12:32" },
+        { "station": "Viège", "arr": "12:50", "dep": "12:52" },
+        { "station": "Brigue", "arr": "13:23", "dep": null }
+      ]
+    },
+    {
+      "id": "814",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "10:12" },
+        { "station": "Viège", "arr": "10:43", "dep": "10:45" },
+        { "station": "Sierre", "arr": "11:02", "dep": "11:03" },
+        { "station": "Sion", "arr": "11:17", "dep": "11:18" },
+        { "station": "Martigny", "arr": "11:32", "dep": null }
+      ]
+    },
+    {
+      "id": "815",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "13:11" },
+        { "station": "Sion", "arr": "13:25", "dep": "13:26" },
+        { "station": "Sierre", "arr": "13:40", "dep": "13:41" },
+        { "station": "Viège", "arr": "13:59", "dep": "14:02" },
+        { "station": "Brigue", "arr": "14:33", "dep": null }
+      ]
+    },
+    {
+      "id": "816",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "11:27" },
+        { "station": "Viège", "arr": "11:58", "dep": "12:01" },
+        { "station": "Sierre", "arr": "12:19", "dep": "12:19" },
+        { "station": "Sion", "arr": "12:33", "dep": "12:34" },
+        { "station": "Martigny", "arr": "12:48", "dep": null }
+      ]
+    },
+    {
+      "id": "817",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "14:24" },
+        { "station": "Sion", "arr": "14:38", "dep": "14:39" },
+        { "station": "Sierre", "arr": "14:53", "dep": "14:54" },
+        { "station": "Viège", "arr": "15:12", "dep": "15:14" },
+        { "station": "Brigue", "arr": "15:45", "dep": null }
+      ]
+    },
+    {
+      "id": "818",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "12:39" },
+        { "station": "Viège", "arr": "13:10", "dep": "13:12" },
+        { "station": "Sierre", "arr": "13:30", "dep": "13:30" },
+        { "station": "Sion", "arr": "13:44", "dep": "13:45" },
+        { "station": "Martigny", "arr": "13:59", "dep": null }
+      ]
+    },
+    {
+      "id": "819",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "15:33" },
+        { "station": "Sion", "arr": "15:47", "dep": "15:48" },
+        { "station": "Sierre", "arr": "16:02", "dep": "16:03" },
+        { "station": "Viège", "arr": "16:21", "dep": "16:23" },
+        { "station": "Brigue", "arr": "16:54", "dep": null }
+      ]
+    },
+    {
+      "id": "820",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "13:45" },
+        { "station": "Viège", "arr": "14:16", "dep": "14:19" },
+        { "station": "Sierre", "arr": "14:36", "dep": "14:37" },
+        { "station": "Sion", "arr": "14:51", "dep": "14:52" },
+        { "station": "Martigny", "arr": "15:06", "dep": null }
+      ]
+    },
+    {
+      "id": "821",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "16:35" },
+        { "station": "Sion", "arr": "16:49", "dep": "16:50" },
+        { "station": "Sierre", "arr": "17:04", "dep": "17:05" },
+        { "station": "Viège", "arr": "17:23", "dep": "17:25" },
+        { "station": "Brigue", "arr": "17:56", "dep": null }
+      ]
+    },
+    {
+      "id": "822",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "15:02" },
+        { "station": "Viège", "arr": "15:33", "dep": "15:35" },
+        { "station": "Sierre", "arr": "15:53", "dep": "15:53" },
+        { "station": "Sion", "arr": "16:07", "dep": "16:08" },
+        { "station": "Martigny", "arr": "16:22", "dep": null }
+      ]
+    },
+    {
+      "id": "823",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "17:45" },
+        { "station": "Sion", "arr": "17:59", "dep": "18:00" },
+        { "station": "Sierre", "arr": "18:14", "dep": "18:15" },
+        { "station": "Viège", "arr": "18:33", "dep": "18:35" },
+        { "station": "Brigue", "arr": "19:06", "dep": null }
+      ]
+    },
+    {
+      "id": "824",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "16:08" },
+        { "station": "Viège", "arr": "16:39", "dep": "16:42" },
+        { "station": "Sierre", "arr": "17:00", "dep": "17:00" },
+        { "station": "Sion", "arr": "17:14", "dep": "17:15" },
+        { "station": "Martigny", "arr": "17:29", "dep": null }
+      ]
+    },
+    {
+      "id": "825",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "18:55" },
+        { "station": "Sion", "arr": "19:09", "dep": "19:10" },
+        { "station": "Sierre", "arr": "19:24", "dep": "19:25" },
+        { "station": "Viège", "arr": "19:43", "dep": "19:45" },
+        { "station": "Brigue", "arr": "20:16", "dep": null }
+      ]
+    },
+    {
+      "id": "826",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "17:10" },
+        { "station": "Viège", "arr": "17:41", "dep": "17:43" },
+        { "station": "Sierre", "arr": "18:01", "dep": "18:01" },
+        { "station": "Sion", "arr": "18:15", "dep": "18:16" },
+        { "station": "Martigny", "arr": "18:30", "dep": null }
+      ]
+    },
+    {
+      "id": "827",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "20:10" },
+        { "station": "Sion", "arr": "20:24", "dep": "20:25" },
+        { "station": "Sierre", "arr": "20:39", "dep": "20:40" },
+        { "station": "Viège", "arr": "20:58", "dep": "21:00" },
+        { "station": "Brigue", "arr": "21:31", "dep": null }
+      ]
+    },
+    {
+      "id": "828",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Sion", "arr": null, "dep": "19:44" },
+        { "station": "Martigny", "arr": "19:58", "dep": null }
+      ]
+    },
+    {
+      "id": "829",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "21:31" },
+        { "station": "Sion", "arr": "21:45", "dep": null}
+      ]
+    },
+    {
+      "id": "830",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "19:34" },
+        { "station": "Viège", "arr": "20:05", "dep": "20:09" },
+        { "station": "Sierre", "arr": "20:27", "dep": "20:27" },
+        { "station": "Sion", "arr": "20:41", "dep": "20:42" },
+        { "station": "Martigny", "arr": "20:56", "dep": null }
+      ]
+    },
+    {
+      "id": "831",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Martigny", "arr": null, "dep": "22:31" },
+        { "station": "Sion", "arr": "22:45", "dep": null}
+      ]
+    },
+    {
+      "id": "832",
+      "line": "IR91",
+      "schedule": [
+        { "station": "Brigue", "arr": null, "dep": "20:38" },
+        { "station": "Viège", "arr": "21:09", "dep": "21:11" },
+        { "station": "Sierre", "arr": "21:29", "dep": "21:29" },
+        { "station": "Sion", "arr": "21:43", "dep": "21:45" },
+        { "station": "Martigny", "arr": "21:59", "dep": null }
+      ]
+    }
+  ]
+}

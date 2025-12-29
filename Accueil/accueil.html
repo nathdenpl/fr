@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FR — Accueil</title>
+  <link rel="icon" href="../Logos FR/favicon.ico" type="image/svg+xml">
+  <link rel="icon" href="../Logos FR/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="accueil.css" />
+  <script src="accueil.js" defer></script>
+</head>
+
+<body>
+  <main class="page">
+
+  <!-- HEADER (style home.css) -->
+  <header class="topHeader">
+    <div class="topHeader__inner">
+      <a class="brand" href="accueil.html" id="homeBrandLink">
+        <img class="brand__logo" src="../Logos FR/fr.png" alt="FR" />
+        <span class="brand__name">FR</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#offers">Offres</a>
+        <a href="#destinations">Destinations</a>
+        <a href="../Horaires/horaires.html">Horaires</a>
+        <a href="#help">Aide</a>
+        <button class="nav__cta" type="button" onclick="document.querySelector('#planner').scrollIntoView({behavior:'smooth'})">
+          Rechercher un trajet
+        </button>
+      </nav>
+    </div>
+
+    <!-- bandes obliques (bleu/rouge) -->
+    <div class="skew skew--blue"></div>
+    <div class="skew skew--red"></div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="planner">
+    <div class="hero__bg" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__kicker">Bienvenue chez FR</p>
+        <h1 class="hero__title">Voyagez plus simplement.</h1>
+        <p class="hero__lead">
+          Horaires clairs, correspondances intelligentes, et une expérience fluide.
+        </p>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__n">Direct</div>
+            <div class="stat__t">ou 1 correspondance</div>
+          </div>
+          <div class="stat">
+            <div class="stat__n">Live</div>
+            <div class="stat__t">progression animée</div>
+          </div>
+          <div class="stat">
+            <div class="stat__n">Suisse</div>
+            <div class="stat__t">police officielle</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TON SEARCH CARD (inchangé fonctionnellement) -->
+      <section class="searchCard searchCard--hero">
+        <div class="searchTop">
+          <div class="brandRow">
+            <img class="brandLogo" src="../Logos FR/fr.png" alt="FR"/>
+            <div class="brandTitles">
+              <h2>Horaires</h2>
+              <p>Recherchez un trajet</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="searchGrid">
+          <label class="lbl">
+            De
+            <div class="field">
+              <input id="from" placeholder="Ex: Loèche-les-Bains" autocomplete="off" />
+              <div id="fromSuggest" class="suggest"></div>
+            </div>
+          </label>
+
+          <button id="swapBtn" class="btn ghost" type="button" title="Interchanger">↔</button>
+
+          <label class="lbl">
+            À
+            <div class="field">
+              <input id="to" placeholder="Ex: Brigue" autocomplete="off" />
+              <div id="toSuggest" class="suggest"></div>
+            </div>
+          </label>
+
+          <button id="searchBtn" class="btn" type="button">Rechercher</button>
+        </div>
+
+        <div class="searchBottom">
+          <div class="status status--hero" id="status"></div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- OFFRES -->
+  <section class="section" id="offers">
+    <div class="section__head">
+      <h2>Nos offres</h2>
+      <p>Un portfolio temporaire (lorem ipsum) — on remplacera par du vrai contenu après.</p>
+    </div>
+
+    <div class="offersTop">
+      <article class="promo promo--feature">
+        <h3>Pass FR</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis, pretium, flex.</p>
+        <a class="link" href="../Horaires/horaires.html">Voir les horaires →</a>
+      </article>
+
+      <article class="promo promo--side">
+        <h3>Offre du moment</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo, sed.</p>
+        <a class="link" href="#destinations">Découvrir →</a>
+      </article>
+    </div>
+
+    <div class="offersBottom">
+      <article class="promo">
+        <h3>Week-end</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo, sed.</p>
+        <a class="link" href="#destinations">Découvrir →</a>
+      </article>
+
+      <article class="promo">
+        <h3>Business</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+        <a class="link" href="#help">En savoir plus →</a>
+      </article>
+
+      <article class="promo">
+        <h3>Famille</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at.</p>
+        <a class="link" href="#help">En savoir plus →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS (portfolio visuel) -->
+  <section class="section" id="destinations">
+    <div class="section__head">
+      <h2>Inspirations</h2>
+      <p>Des visuels pour casser le blanc (comme VR) sans passer en “nuit”.</p>
+    </div>
+
+    <div class="tiles">
+      <a class="tile" href="#planner">
+        <div class="tile__img tile__img--a" aria-hidden="true"></div>
+        <div class="tile__cap">
+          <div class="tile__t">Montagne</div>
+          <div class="tile__s">Lorem ipsum</div>
+        </div>
+      </a>
+      <a class="tile" href="#planner">
+        <div class="tile__img tile__img--b" aria-hidden="true"></div>
+        <div class="tile__cap">
+          <div class="tile__t">Ville</div>
+          <div class="tile__s">Lorem ipsum</div>
+        </div>
+      </a>
+      <a class="tile" href="#planner">
+        <div class="tile__img tile__img--c" aria-hidden="true"></div>
+        <div class="tile__cap">
+          <div class="tile__t">Lacs</div>
+          <div class="tile__s">Lorem ipsum</div>
+        </div>
+      </a>
+      <a class="tile" href="#planner">
+        <div class="tile__img tile__img--d" aria-hidden="true"></div>
+        <div class="tile__cap">
+          <div class="tile__t">Randonnée</div>
+          <div class="tile__s">Lorem ipsum</div>
+        </div>
+      </a>
+      <a class="tile" href="#planner">
+        <div class="tile__img tile__img--e" aria-hidden="true"></div>
+        <div class="tile__cap">
+          <div class="tile__t">Automne</div>
+          <div class="tile__s">Lorem ipsum</div>
+        </div>
+      </a>
+      <a class="tile" href="#planner">
+        <div class="tile__img tile__img--f" aria-hidden="true"></div>
+        <div class="tile__cap">
+          <div class="tile__t">Patrimoine</div>
+          <div class="tile__s">Lorem ipsum</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- AIDE -->
+  <section class="section" id="help">
+    <div class="section__head">
+      <h2>Aide</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© FR — Portfolio temporaire</div>
+  </footer>
+
+</main>
+
+  <!-- STATION PICKER (plein écran, style VR.fi) -->
+  <div id="stationOverlay" class="stationOverlay" hidden>
+    <div class="stationSheet" role="dialog" aria-modal="true" aria-labelledby="stationTitle">
+      <header class="stationTop">
+        <button id="stationCloseBtn" class="stationClose" type="button" aria-label="Fermer">×</button>
+        <div class="stationTitles">
+          <div class="stationTitle" id="stationTitle">Choisir une gare</div>
+          <div class="stationSub" id="stationSub">Tape pour filtrer ou choisis dans la liste</div>
+        </div>
+      </header>
+
+      <div class="stationSearch">
+        <input id="stationSearchInput" type="text" placeholder="Rechercher une gare…" autocomplete="off" />
+        <div class="stationHint" id="stationHint"></div>
+      </div>
+
+      <div class="stationList" id="stationList"></div>
+    </div>
+  </div>
+</body>
+</html>

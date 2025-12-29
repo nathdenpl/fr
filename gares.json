@@ -1,0 +1,25 @@
+{
+    "gares": [
+        {
+            "name": "Brigue"
+        },
+        {
+            "name": "Loèche-les-Bains"
+        },
+        {
+            "name": "Martigny"
+        },
+        {
+            "name": "Saint-Maurice"
+        },
+        {
+            "name": "Sierre"
+        },
+        {
+            "name": "Sion"
+        },
+        {
+            "name": "Viège"
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FR — Horaires</title>
+  <link rel="icon" href="../Logos FR/favicon.ico" type="image/svg+xml">
+  <link rel="icon" href="../Logos FR/" sizes="any">
+  <link rel="stylesheet" href="../Accueil/accueil.css" />
+  <link rel="stylesheet" href="horaires.css" />
+  <script src="horaires.js" defer></script>
+</head>
+
+<body>
+  <main class="page">
+
+  <!-- HEADER (identique à Accueil, mais chemins corrigés) -->
+  <header class="topHeader">
+    <div class="topHeader__inner">
+      <a class="brand" href="../Accueil/accueil.html">
+        <img class="brand__logo" src="../Logos FR/fr.png" alt="FR" />
+        <span class="brand__name">FR</span>
+      </a>
+
+      <nav class="nav">
+        <a href="../Accueil/accueil.html#offers">Offres</a>
+        <a href="../Accueil/accueil.html#destinations">Destinations</a>
+        <a href="../Horaires/horaires.html">Horaires</a>
+        <a href="../Accueil/accueil.html#help">Aide</a>
+        <button class="nav__cta" type="button"
+          onclick="document.querySelector('#planner').scrollIntoView({behavior:'smooth'})">
+          Rechercher un trajet
+        </button>
+      </nav>
+    </div>
+
+    <div class="skew skew--blue"></div>
+    <div class="skew skew--red"></div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="planner">
+    <div class="hero__bg" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__kicker">Bienvenue chez FR</p>
+        <h1 class="hero__title">Voyagez plus simplement.</h1>
+        <p class="hero__lead">
+          Horaires clairs, correspondances intelligentes, et une expérience fluide.
+        </p>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__n">Direct</div>
+            <div class="stat__t">ou 1 correspondance</div>
+          </div>
+          <div class="stat">
+            <div class="stat__n">Live</div>
+            <div class="stat__t">progression animée</div>
+          </div>
+          <div class="stat">
+            <div class="stat__n">Suisse</div>
+            <div class="stat__t">police officielle</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TON SEARCH CARD (inchangé fonctionnellement) -->
+      <section class="searchCard searchCard--hero">
+        <div class="searchTop">
+          <div class="brandRow">
+            <img class="brandLogo" src="../Logos FR/fr.png" alt="FR"/>
+            <div class="brandTitles">
+              <h2>Horaires</h2>
+              <p>Recherchez un trajet</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="searchGrid">
+          <label class="lbl">
+            De
+            <div class="field">
+              <input id="from" placeholder="Ex: Loèche-les-Bains" autocomplete="off" />
+              <div id="fromSuggest" class="suggest"></div>
+            </div>
+          </label>
+
+          <button id="swapBtn" class="btn ghost" type="button" title="Interchanger">↔</button>
+
+          <label class="lbl">
+            À
+            <div class="field">
+              <input id="to" placeholder="Ex: Brigue" autocomplete="off" />
+              <div id="toSuggest" class="suggest"></div>
+            </div>
+          </label>
+
+          <button id="searchBtn" class="btn" type="button">Rechercher</button>
+        </div>
+
+        <div class="searchBottom">
+          <label class="lbl inline">
+            Heure test
+            <input id="mockTime" type="time" />
+            <span class="hint">vide = heure réelle</span>
+          </label>
+          <div class="status status--hero" id="status"></div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- HORAIRES (tout le moteur + modals ici) -->
+  <section class="section" id="timetables">
+    <div class="section__head">
+      <h2>Horaires</h2>
+      <p>Saisis une origine et une destination, puis explore les trajets.</p>
+    </div>
+
+    <section class="results" id="results"></section>
+  </section>
+
+  <footer class="footer">
+    <div>© FR — Portfolio temporaire</div>
+  </footer>
+
+</main>
+
+  <!-- MODAL (trajets + correspondances) -->
+  <div id="modalOverlay" class="modalOverlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modalClose" id="modalCloseBtn" type="button" aria-label="Fermer">×</button>
+
+      <div class="modalHeader">
+        <div class="modalTitle" id="modalTitle"></div>
+        <div class="modalSub" id="modalSub"></div>
+      </div>
+
+      <div class="modalBody" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- STATION PICKER (plein écran, style VR.fi) -->
+  <div id="stationOverlay" class="stationOverlay" hidden>
+    <div class="stationSheet" role="dialog" aria-modal="true" aria-labelledby="stationTitle">
+      <header class="stationTop">
+        <button id="stationCloseBtn" class="stationClose" type="button" aria-label="Fermer">×</button>
+        <div class="stationTitles">
+          <div class="stationTitle" id="stationTitle">Choisir une gare</div>
+          <div class="stationSub" id="stationSub">Tape pour filtrer ou choisis dans la liste</div>
+        </div>
+      </header>
+
+      <div class="stationSearch">
+        <input id="stationSearchInput" type="text" placeholder="Rechercher une gare…" autocomplete="off" />
+        <div class="stationHint" id="stationHint"></div>
+      </div>
+
+      <div class="stationList" id="stationList"></div>
+    </div>
+  </div>
+</body>
+</html>
