@@ -97,3 +97,34 @@ body{
   color:rgba(255,255,255,.62);
   font-size:13px;
 }
+
+.wall__logoImg{
+  width:56px;
+  height:56px;
+  border-radius:16px;
+  background:#fff;
+  display:grid;
+  place-items:center;
+  overflow:hidden;
+}
+
+.wall__logoImg img{
+  width:80%;
+  height:auto;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+
+.wall::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,200,0,.06) 0 12px,
+      rgba(0,0,0,0) 12px 24px
+    );
+  pointer-events:none;
+}
+
