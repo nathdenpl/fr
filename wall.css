@@ -1,130 +1,141 @@
+/* Base */
 html, body{
-  height:100%;
-  margin:0;
+  height: 100%;
+  margin: 0;
 }
 
 @font-face{
   font-family: "Suisse";
-  src: url("suisse-intl-regular.ttf");
-  font-weight: normal;
+  src: url("./suisse-intl-regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 body{
-  background:#0b1220; /* opaque */
-  color:#fff;
+  background: #0b1220;
+  color: #fff;
   font-family: Suisse, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  overflow:hidden; /* rien ne bouge */
+  overflow: hidden;
 }
 
+/* Le mur */
 .wall{
-  min-height:100%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:24px;
-  box-sizing:border-box;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+
+  /* IMPORTANT: on positionne le parent pour ::before */
+  position: relative;
+  isolation: isolate; /* garantit que le décor passe derrière */
 }
 
-.wall__card{
-  width:min(820px, 100%);
-  border-radius:22px;
-  padding:24px 22px;
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.14);
-}
-
-.wall__brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  margin-bottom:14px;
-}
-
-.wall__logo{
-  width:48px;
-  height:48px;
-  border-radius:16px;
-  display:grid;
-  place-items:center;
-  font-weight:950;
-  background:#f7f7f7;
-  color:#0b1220;
-}
-
-.wall__name{
-  font-weight:950;
-  letter-spacing:.02em;
-}
-
-.wall__title{
-  margin:0;
-  font-size:42px;
-  line-height:1.08;
-  letter-spacing:-.02em;
-}
-
-.wall__lead{
-  margin:10px 0 0;
-  color:rgba(255,255,255,.78);
-  font-size:16px;
-  max-width:70ch;
-}
-
-.wall__box{
-  margin-top:16px;
-  padding:16px 16px;
-  border-radius:18px;
-  background: rgba(255,255,255,.06);
-  border: 1px solid rgba(255,255,255,.14);
-}
-
-.wall__h2{
-  margin:0 0 8px;
-  font-size:16px;
-  font-weight:950;
-}
-
-.wall__p{
-  margin:0;
-  color:rgba(255,255,255,.86);
-  line-height:1.45;
-  font-size:15px;
-}
-
-.wall__foot{
-  margin:16px 0 0;
-  color:rgba(255,255,255,.62);
-  font-size:13px;
-}
-
-.wall__logoImg{
-  width:56px;
-  height:56px;
-  border-radius:16px;
-  background:#fff;
-  display:grid;
-  place-items:center;
-  overflow:hidden;
-}
-
-.wall__logoImg img{
-  width:80%;
-  height:auto;
-  user-select:none;
-  -webkit-user-drag:none;
-}
-
+/* Décor rayé derrière la card (pas dessus) */
 .wall::before{
   content:"";
-  position:absolute;
-  inset:0;
+  position: absolute;
+  inset: 0;
+  z-index: 0; /* derrière */
   background:
+    radial-gradient(900px 500px at 20% 10%, rgba(255,255,255,.06), transparent 60%),
+    radial-gradient(800px 500px at 80% 90%, rgba(255,255,255,.05), transparent 55%),
     repeating-linear-gradient(
       135deg,
       rgba(255,200,0,.06) 0 12px,
       rgba(0,0,0,0) 12px 24px
     );
-  pointer-events:none;
+  pointer-events: none;
 }
 
+/* Card */
+.wall__card{
+  position: relative;
+  z-index: 1; /* au-dessus du décor */
+  width: min(820px, 100%);
+  border-radius: 22px;
+  padding: 24px 22px;
+
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 30px 80px rgba(0,0,0,.45);
+}
+
+/* Brand row */
+.wall__brand{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.wall__logoImg{
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.wall__logoImg img{
+  width: 80%;
+  height: auto;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.wall__name{
+  font-weight: 950;
+  letter-spacing: .02em;
+}
+
+/* Text */
+.wall__title{
+  margin: 0;
+  font-size: clamp(28px, 4.2vw, 42px);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.wall__lead{
+  margin: 10px 0 0;
+  color: rgba(255,255,255,.78);
+  font-size: 16px;
+  max-width: 70ch;
+}
+
+.wall__box{
+  margin-top: 16px;
+  padding: 16px 16px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+}
+
+.wall__h2{
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 950;
+}
+
+.wall__p{
+  margin: 0;
+  color: rgba(255,255,255,.86);
+  line-height: 1.45;
+  font-size: 15px;
+}
+
+.wall__foot{
+  margin: 16px 0 0;
+  color: rgba(255,255,255,.62);
+  font-size: 13px;
+}
+
+/* Mobile breathing room */
+@media (max-width: 420px){
+  .wall__card{ padding: 20px 18px; }
+  .wall__logoImg{ width: 52px; height: 52px; }
+}
