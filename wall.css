@@ -1,0 +1,91 @@
+html, body{
+  height:100%;
+  margin:0;
+}
+body{
+  background:#0b1220; /* opaque */
+  color:#fff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  overflow:hidden; /* rien ne bouge */
+}
+
+.wall{
+  min-height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+  box-sizing:border-box;
+}
+
+.wall__card{
+  width:min(820px, 100%);
+  border-radius:22px;
+  padding:24px 22px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+}
+
+.wall__brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:14px;
+}
+
+.wall__logo{
+  width:48px;
+  height:48px;
+  border-radius:16px;
+  display:grid;
+  place-items:center;
+  font-weight:950;
+  background:#f7f7f7;
+  color:#0b1220;
+}
+
+.wall__name{
+  font-weight:950;
+  letter-spacing:.02em;
+}
+
+.wall__title{
+  margin:0;
+  font-size:42px;
+  line-height:1.08;
+  letter-spacing:-.02em;
+}
+
+.wall__lead{
+  margin:10px 0 0;
+  color:rgba(255,255,255,.78);
+  font-size:16px;
+  max-width:70ch;
+}
+
+.wall__box{
+  margin-top:16px;
+  padding:16px 16px;
+  border-radius:18px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.14);
+}
+
+.wall__h2{
+  margin:0 0 8px;
+  font-size:16px;
+  font-weight:950;
+}
+
+.wall__p{
+  margin:0;
+  color:rgba(255,255,255,.86);
+  line-height:1.45;
+  font-size:15px;
+}
+
+.wall__foot{
+  margin:16px 0 0;
+  color:rgba(255,255,255,.62);
+  font-size:13px;
+}
