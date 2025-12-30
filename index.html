@@ -5,8 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>FranceRailways — Under construction</title>
   <meta name="robots" content="noindex,nofollow" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="./Logos%20FR/favicon.ico" sizes="any">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="./wall.css" />
-  <link rel="icon" href="Logos FR/favicon.ico">
+
+  <!-- Optionnel: preload de la police (si le fichier est bien à la racine) -->
+  <!-- <link rel="preload" href="./suisse-intl-regular.ttf" as="font" type="font/ttf" crossorigin> -->
 </head>
 
 <body>
@@ -14,29 +21,26 @@
     <div class="wall__card">
       <div class="wall__brand">
         <div class="wall__logoImg">
-          <img src="Logos FR/fr.png"
-               alt="FranceRailways logo"
-               draggable="false" />
+          <img src="./Logos%20FR/fr.png" alt="FranceRailways logo" draggable="false" />
         </div>
         <div class="wall__name">FranceRailways</div>
       </div>
 
       <h1 class="wall__title" id="wallTitle">Website under construction</h1>
+
       <p class="wall__lead">
         This website is currently private while we build and test features.
       </p>
 
-      <div class="wall__box">
+      <section class="wall__box" aria-label="Fiction notice">
         <h2 class="wall__h2">Fiction notice</h2>
         <p class="wall__p">
           This is a fictional portfolio prototype. Any timetables, trains, prices, connections or “reservations”
-          would be entirely fictional and do not correspond to real-world services.
+          are entirely fictional and do not correspond to real-world services.
         </p>
-      </div>
+      </section>
 
-      <p class="wall__foot">
-        Come back soon. 👋
-      </p>
+      <p class="wall__foot">Come back soon. 👋</p>
     </div>
   </main>
 </body>
